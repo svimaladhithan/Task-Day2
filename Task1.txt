@@ -1,0 +1,8 @@
+Difference between Document and Window objects
+
+ --> Window is a global object in client side server. It acts as the root of the Document Object Model and representing the browser window containing the DOM whereas Document object is a HTML document and will create while the browser loading the HTML file. It appears in the browser window and is a interface for interacting webpage contents.
+ --> To simply this, Window manages browser interactions and Document acts as the interface of the inner content manipulation.
+ --> Properties related to window objects are length, innerWidth, innerHeight, etc and the properties related to document objects are innerHTML, attribute, etc.
+ --> The window object methods are open, close, moveTo, etc and the methods of Document object are getElementById(), getElementByName(), etc.
+ --> Through Window, we can access the document object properties however, we can't access the window object properties with document.
+ --> Document object will load after the loading window because the window contains a document whereas Window load before the document because window container document.
