@@ -6,3 +6,5 @@ Difference between Document and Window objects
  --> The window object methods are open, close, moveTo, etc and the methods of Document object are getElementById(), getElementByName(), etc.
  --> Through Window, we can access the document object properties however, we can't access the window object properties with document.
  --> Document object will load after the loading window because the window contains a document whereas Window load before the document because window container document.
+ --> Logically: document:{properties} and Window:{document:{properties}}
+ --> Example to return the title of the document: For Document(document.tile) and For Window(window.document.title)
